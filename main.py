@@ -1,37 +1,40 @@
 import streamlit as st
 
 import home
-#import stock_uptop
-#import stock_chanlun
+
+import stock_uptop
+import stock_chanlun
 import stock_boll
-#import stock_kdj
-#import stock_macd
-#import stock_volume
-#import stock_day_analyse
-#import stock_springfestival_pnl
-#import stock_month_pnl
+import stock_kdj
+import stock_macd
+import stock_volume
+import stock_day_analyse
+import stock_info
+import stock_springfestival_pnl
+import stock_month_pnl
 import stock_rsi
-#import stock_jingjia
-#import stock_sentiment
-#import stock_up_analyse
+import stock_jingjia
+import stock_sentiment
+import stock_up_analyse
 
 PAGES = { "主页": home,
-        #"涨停分析": stock_uptop,
+        "涨停分析": stock_uptop,
         "RSI": stock_rsi,   
-        #"MACD": stock_macd,
+        "MACD": stock_macd,
         "BOLL": stock_boll,
-        #"KDJ": stock_kdj,
-        #"VOLUME": stock_volume,
-        #"SPRINGFESTIVAL": stock_springfestival_pnl,
-        #"MONTH_PNL": stock_month_pnl,
-        #"CHANLUN": stock_chanlun,
-        #"VOLUME": stock_volume,
-        #"DAY_ANALYSE":stock_day_analyse,
-        #"JINGJIA":stock_jingjia,
-        #"SENTIMENT":stock_sentiment,
+        "KDJ": stock_kdj,
+        "VOLUME": stock_volume,
+        "SPRINGFESTIVAL": stock_springfestival_pnl,
+        "MONTH_PNL": stock_month_pnl,
+        "CHANLUN": stock_chanlun,
+        "VOLUME": stock_volume,
+        "DAY_ANALYSE":stock_day_analyse,
+        "JINGJIA":stock_jingjia,
+        "SENTIMENT":stock_sentiment,
         #"DEEPSEEK1":deep1,
         #"DEEPSEEK3":deep3,
-        #"STOCK_UP_ANAYLSE":stock_up_analyse
+        "STOCK_UP_ANAYLSE":stock_up_analyse,
+        "STOCK_INFO":stock_info
         }
 
 
