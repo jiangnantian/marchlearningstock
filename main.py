@@ -10,14 +10,14 @@ import stock_boll
 #import stock_day_analyse
 #import stock_springfestival_pnl
 #import stock_month_pnl
-#import stock_rsi
+import stock_rsi
 #import stock_jingjia
 #import stock_sentiment
 #import stock_up_analyse
 
 PAGES = { "主页": home,
         #"涨停分析": stock_uptop,
-        #"RSI": stock_rsi,   
+        "RSI": stock_rsi,   
         #"MACD": stock_macd,
         "BOLL": stock_boll,
         #"KDJ": stock_kdj,
